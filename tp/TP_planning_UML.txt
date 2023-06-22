@@ -1,0 +1,30 @@
+TP : Planning de salles de cours.
+
+Objectif:  Concevoir un logiciel afin de pouvoir gérer un planning de cours.
+
+Les créneaux horaires sont de 1h (par exemple commence à 9h et termine à 10h).
+Le planning est identique chaque semaine (planifier donc uniquement du lundi au vendredi).
+
+La réservation concernant un cours (une leçon) implique :
+	- une salle, 
+	- un prof 
+	- et un groupe d'eleves
+
+
+1) Faire un diagramme de classe (UML) de votre solution
+
+2) En déduire le schéma SQL de votre base de données
+
+3) Ecrire le script SQL de création de vos tables
+
+4) Executer le script SQL pour remplir la base de données
+
+5) Ecrire les requetes SQL pour répondre aux demandes suivantes:
+
+	7.1 - Afficher les matières enseignées par chacun des enseignants
+	7.2 - Afficher le planning de cours de l'étudiant: Pierre Kiroul
+	7.3 - Quel étudiant n'assiste à aucun cours ?
+	7.4 - Dans quelles salles peut on faire des travaux de rénovation durant plusieurs semaines ? 
+
+
+6) Comment améliorer notre schema de base de données ? Quels sont les cas qui n'ont pas été traités ? 
